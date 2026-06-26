@@ -1,0 +1,278 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+body{
+    background: linear-gradient(135deg,#e8f4ff,#ffffff);
+    font-family: "Segoe UI",sans-serif;
+    color:#222;
+}
+
+.container{
+    max-width:1400px;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    color:#0d6efd;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#666;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.info-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   FORM CARD
+=========================== */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.card-body{
+
+    padding:40px;
+
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h2{
+
+    font-weight:700;
+
+}
+
+h3{
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+   LABELS
+=========================== */
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:5px;
+
+}
+
+/* ===========================
+   INPUTS
+=========================== */
+
+.form-control{
+
+    border-radius:10px;
+
+    padding:12px;
+
+    border:1px solid #ced4da;
+
+    transition:.3s;
+
+}
+
+.form-control:focus{
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+
+    border-radius:12px;
+
+    padding:12px 28px;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:#0d6efd;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#0b5ed7;
+
+}
+
+.btn-success:hover{
+
+    transform:scale(1.04);
+
+}
+
+.btn-danger:hover{
+
+    transform:scale(1.04);
+
+}
+
+/* ===========================
+   RESULT CARD
+=========================== */
+
+.alert{
+
+    border-radius:15px;
+
+}
+
+.progress{
+
+    border-radius:20px;
+
+}
+
+.progress-bar{
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   LIST GROUP
+=========================== */
+
+.list-group-item{
+
+    font-size:17px;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    color:#777;
+
+    margin-top:60px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+.info-card{
+
+margin-bottom:20px;
+
+}
+
+.card-body{
+
+padding:20px;
+
+}
+
+}
+
+.navbar{
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+.nav-link{
+
+font-size:17px;
+
+margin-left:15px;
+
+}
+
+.nav-link:hover{
+
+color:#ffd54f !important;
+
+}
+
+.display-3{
+
+font-weight:700;
+
+}
+
+.btn-outline-primary{
+
+border-width:2px;
+
+}
